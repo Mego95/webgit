@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Διδάσκοντες</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>Μάθημα</th>
+            <th>Ώρες Διδασκαλίας</th>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>C#</td>
+            <td>50</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <!-- caption einai titlos pinaka-->
+        <caption>Διδάσκοντες</caption>
+        <thead>
+            <tr>
+                <th>Ονομα</th>
+                <th>Επωνυμο</th>
+                <th>Μάθημα</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Μακης</td>
+                <td>Καπετης</td>
+                <td>Βασεις Δεδομενων</td>
+            </tr>
+            <tr>
+                <td>Αθ</td>
+                <td>Ανδρουτσος</td>
+                <td>Java/JavaEE</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <!-- sigxonefsi to colspan, dld pianei kai tis 3 stiles kentrarei -->
+                <th colspan="3">Coding Factory</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="2">Ονοματεπωνυμο</th>
+            <th>Ηλικια</th>
+        </tr>
+        <tr>
+            <td>Παπαδοπουλος</td>
+            <td>Νικος</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Παπαδοπουλος</td>
+            <td>Κων/νος</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <!-- colspan sigxonevei columns, rowspan rows -->
+            <td colspan="2" rowspan="2">Min/Max</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>30</td>
+        </tr>
+    </table>
+
+</body>
+</html>
